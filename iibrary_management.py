@@ -11,7 +11,7 @@ class Book:
         self.title = title
         self.__author = author
         self.availability = True
-        Library.entry_book(self) # এখানে self হল বর্তমান Book অবজেক্ট, যেটি মাত্র তৈরি হয়েছে।
+        Library.entry_book(self)
 
     @classmethod
     def view_book_info(self):
